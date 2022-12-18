@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8567a4ec-d450-4298-b2e4-6633ea1b072d" name="semi-NAT">
+        <fileTransfer rootFolder="/home/zuhuidang/wangning/semi-NAT" accessType="SFTP" host="172.16.185.70" port="22" sshConfigId="5979b0d5-2dd6-4761-8122-6599e0e91b31" sshConfig="wangning@172.16.185.70:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
