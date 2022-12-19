@@ -16,3 +16,6 @@ To predict the first segment, mask the entire sentence and feed into the decoder
 and calculate the loss of the model predicting the first segment. For the second prediction, 
 the input sentence at the decoding side can see the tokens of the first segment, the tokens of other segments are masked, 
 and the model predicts the loss of the second segment, and so on.
+
+
+How to preprocess corpus, train model and inference, please refer to NATbase repository.
