@@ -1,4 +1,4 @@
-# semi-NAT
+# Semi-NAT
 The idea of this project is to let the decoder predict the target sentence segment autoregressively, 
 instead of predicting a single token from left to right to achieve a balance between decoding speed and accuracy.
 
@@ -18,4 +18,12 @@ the input sentence at the decoding side can see the tokens of the first segment,
 and the model predicts the loss of the second segment, and so on.
 
 
+# Problem
+1 In the case that the performance of NAT is already close to that of AT, the innovation and application value of semi-autoregressive are almost meaningless.
+
+
+2 At present, there have been articles that have done semi-autoregression. Although the implementation method is not exactly the same, it further loses the innovation of the idea.
+
+
+# Usage
 How to preprocess corpus, train model and inference, please refer to NATbase repository.
